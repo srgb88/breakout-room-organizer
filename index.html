@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout Room Organizer</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+<body>
+    <div class="app">
+        <header>
+            <h1>Breakout Room Organizer</h1>
+            <p>#EuNãoPapoGrupos</p>
+            <button type="button" class="btn btn-default">
+                <img src="camera.png" 
+                width=25 height=25 style="vertical-align: middle;">SCREENSHOT</button>
+        </header>
+        <div class="lists" id="leftColumn">
+            <input type="text" id="searchBox" onkeyup="searchPub()" placeholder="Search name">
+            <div class="pubList" id="myUL">
+                <div class="list-item" draggable="true">John Doe</div>
+                <div class="list-item" draggable="true">Jane Doe</div>
+                <div class="list-item" draggable="true">Peter Doe</div>
+                <div class="list-item" draggable="true">Mary Doe</div>
+                <div class="list-item" draggable="true">Paul Doe</div>
+                <div class="list-item" draggable="true">Jessica Doe</div>
+                <div class="list-item" draggable="true">Susan Doe</div>
+                <div class="list-item" draggable="true">Terry Doe</div>
+                <div class="list-item" draggable="true">Mike Doe</div>
+                <div class="list-item" draggable="true">Angela Doe</div>
+                <div class="list-item" draggable="true">Brett Doe</div>
+                <div class="list-item" draggable="true">Joanne Doe</div>
+                <div class="list-item" draggable="true">Christina Doe</div>
+                <div class="list-item" draggable="true">Robert Doe</div>
+                <div class="list-item" draggable="true">Bob Doe</div>
+                <div class="list-item" draggable="true">Bill Doe</div>
+                <div class="list-item" draggable="true">Linda Doe</div>
+                <div class="list-item" draggable="true">David Doe</div>
+                <div class="list-item" draggable="true">Daniel Doe</div>
+                <div class="list-item" draggable="true">Isaac Doe</div>
+                <div class="list-item" draggable="true">Ruth Doe</div>
+                <div class="list-item" draggable="true">Hillary Doe</div>
+                <div class="list-item" draggable="true">Sarah Doe</div>
+                <div class="list-item" draggable="true">Luke Doe</div>
+                <div class="list-item" draggable="true">Caleb Doe</div>
+                <div class="list-item" draggable="true">Patel Doe</div>
+                <div class="list-item" draggable="true">Annah Doe</div>
+                <div class="list-item" draggable="true">Hannah Doe</div>
+                <div class="list-item" draggable="true">René Doe</div>
+                <div class="list-item" draggable="true">Carl Doe</div>
+                <div class="list-item" draggable="true">Charles Doe</div>
+                <div class="list-item" draggable="true">Nick Doe</div>
+                <div class="list-item" draggable="true">Charlize Doe</div>
+                <div class="list-item" draggable="true">Elise Doe</div>
+                <div class="list-item" draggable="true">William Doe</div>
+                <div class="list-item" draggable="true">Josh Doe</div>
+                <div class="list-item" draggable="true">Gary Doe</div>
+                <div class="list-item" draggable="true">Brad Doe</div>
+                <div class="list-item" draggable="true">Julia Doe</div>
+                <div class="list-item" draggable="true">Serge Doe</div>
+                <div class="list-item" draggable="true">Tanya Doe</div>
+            </div>
+            <div class="cont1">
+                <div class="list"><H2>Room 1</H2></div>
+                <div class="list"><H2>Room 2</H2></div>
+                <div class="list"><H2>Room 3</H2></div>
+                <div class="list"><H2>Room 4</H2></div>
+                <div class="list"><H2>Room 5</H2></div>
+            </div>
+            <div class="cont2">
+                <div class="list-down"><H2>Room 6</H2></div>
+                <div class="list-down"><H2>Room 7</H2></div>
+                <div class="list-down"><H2>Room 8</H2></div>
+                <div class="list-down"><H2>Room 9</H2></div>
+                <div class="list-down"><H2>Room 10</H2></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
